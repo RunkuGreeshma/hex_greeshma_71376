@@ -1,0 +1,22 @@
+employee= {"ID":"100","Name" :"Suresh ","Age ": 35};
+
+
+print(Employee);
+print(type(Employee));
+
+print("===============LIst =====");
+
+data=[10,20,30,40,40 ]
+print(data);
+print(type(data));
+
+
+print("===============Set  =====");
+
+set={10,20,30,40,40 }
+print(set);
+print(type(set));
+print(sorted(set))
+
+
+

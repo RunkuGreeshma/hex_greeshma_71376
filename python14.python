@@ -1,0 +1,17 @@
+d =Demo(100,"Prakash",25);
+d.display(50000,'Clerk')def abc():
+  for i in range(10):
+      print("Function :",i)
+
+abc();
+
+class  Demo :
+    def __init__(self,uid,name,age):
+        for i in range(10):
+            print("COnstructr  :",uid,name,age);
+
+    def display(self,salary,desig):
+        for i in range(10):
+            print("Mehod  : ",i ,salary,desig);
+
+

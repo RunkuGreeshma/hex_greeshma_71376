@@ -1,0 +1,29 @@
+class Clerk :
+    salary=15000;
+    desig="CLERK";
+    
+    def __init__(self) :
+        self.uid=input("Enter ID :");
+        self.name=input("Enter NAme :");
+        self.age=input("Enter Age  :");
+    
+    def display(self):
+        print("Emp Deteils ........!");
+        print("Name :",self.name);
+        print("ID : ",self.uid);
+        print('Age :',self.age);
+        print('Salary ',self.salary);
+        print('Desig :',self.desig);
+        
+    def raiseSal(self):
+        print("Agter Raising the salary .....!");
+        print("Name :",self.name);
+        print("ID : ",self.uid);
+        print('Age :',self.age);
+        print('Salary ',self.salary+20000);
+        print('Desig :',self.desig);
+        
+#e=Emp(100,'Sunil',35,40000,'clerk');
+e =Clerk();
+e.display();
+e.raiseSal();

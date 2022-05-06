@@ -1,0 +1,9 @@
+def create():
+    uid=input("Enter ID:");
+    name=input("Enter Name:");
+
+    print("=================");
+    print("ID: ",uid);
+    print("name : ",name);
+    
+create();

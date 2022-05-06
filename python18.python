@@ -1,0 +1,30 @@
+import math
+print("POWER  :",math.pow(2,3));
+print("SQRT :",math.sqrt(225));
+print("FACTORIAL  :",math.factorial(5));
+print("Floore  :",math.floor(15.87523));
+print("ceil  :",math.ceil(15.87523)); 
+print("max  :",max(100,200));
+print("max  :",min(100,200)); 
+
+
+str="we are lernig basic python"
+
+print(str);
+print(str.upper());
+print(str.lower());
+print(str.capitalize());
+print(str.title());
+print(str.startswith('w'));
+print(str.endswith('y'));
+print(len(str));
+print(str.strip());
+print(len(str.strip()));
+print(str.isalpha());
+print(str.isdigit());
+str.split()
+print("HI",str);
+
+str2=str.split(' ')
+print(str2);
+

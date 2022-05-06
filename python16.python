@@ -1,0 +1,14 @@
+class Demo :
+    def __init__(self) :
+        try:
+             a=int(input("ENter A value : "))
+             b=int(input("Enter B values : "))
+             c=a/b;
+             print("Res :",c);
+        except :
+            print("cant divide with zero ");
+        finally :
+            print("Thank you....!");
+                
+
+d=Demo();
